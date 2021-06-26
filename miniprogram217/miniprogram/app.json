@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/partner/partner",
+    "pages/details/details"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/map.png",
+        "selectedIconPath": "image/map.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "image/school.png",
+        "selectedIconPath": "image/school.png",
+        "text": "学校"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "iconPath": "image/treehole.png",
+        "selectedIconPath": "image/treehole.png",
+        "text": "论坛"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "vant-weapp/button",
+    "van-icon": "vant-weapp/icon"
+  }
+}

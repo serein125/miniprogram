@@ -1,0 +1,5 @@
+<view wx:for="{{datalist}}" bindtap="tz" data-item="item">
+  <text>{{item.name}}</text>
+  <text>{{item.cid}}</text>
+  <button bindtap="tz">tz</button>
+</view>
